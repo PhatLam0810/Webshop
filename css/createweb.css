@@ -213,9 +213,6 @@ html,body{
     flex-wrap:  wrap; 
     justify-content: space-around;
 }
-.contten-section{
-    height: 2000px;
-}
 .cart-header{
     font-weight: bold;
     font-size: 1.5em;
