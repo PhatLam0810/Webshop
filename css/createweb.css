@@ -1,0 +1,298 @@
+@font-face{
+    font-family: 'Oswald';
+    src: url("/Font/Oswald-VariableFont_wght.ttf"); 
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald';
+    color: #777;
+  
+}
+.main-header{
+    background-image: url(/img/ArcheAge_sample.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.151);
+    background-blend-mode: multiply;
+    padding-bottom: 30px
+    ;
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+   
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    padding: .5em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.452);
+    display: inline-block;
+    font-weight: lighter;
+}
+.nav a:hover{
+    background-color:  rgba(255, 255, 255, 0.452)
+}
+.main-nav li {
+    padding:  0 5%;
+}
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: 'Oswald';
+    font-weight: 900px;
+    color: rgba(58, 180, 228, 0.733);
+}
+.band-name-lager{
+    font-size: 4em;
+}
+.content-section{
+    margin:  1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: 'Oswald';
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+    width: 100%;
+    padding: 0 1em;
+    box-sizing:  border-box;
+} 
+.img-band{
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}  
+.main-footer{
+    border-top: 2px solid rgba(0,0,0, .6);
+    background-color: white;
+    color: white;
+    padding:  .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50;
+
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+
+}
+.btn-header{
+    margin: 0.5em 15% 0.2em 15%;
+    color: white;
+    border: 2px solid #2D9CD8;
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size:  1.5em;
+    font-weight: lighter;
+    padding-left:  2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255,255,255, .3);
+}
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: #2D9CD8;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+    margin-block-start: 0.5em;
+}
+.tour-row:last-child{
+    border-bottom: none;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 8%;   
+}
+.tour-title{
+    width: 80%;
+
+}
+.tour-title:hover{
+    color: rgba(0, 0, 0, 1);
+    cursor :pointer;
+    font-weight: bold;
+}
+.tour-btn{
+    max-width: 10%;
+}
+.btn-primary{
+    background-color: rgb(58, 180, 228);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: rgba(15, 75, 99, 0.678);
+    font-weight: bold;
+    cursor: pointer;
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight:  bold;
+    font-size: 1.5em;
+    color:  #333;
+    margin-bottom:  15px;
+}
+.shop-img{
+  height: 250px;
+}
+.shop-cost-detail{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+.shop-cost{
+    flex-grow:  1;
+    color: #333;
+}
+.shop-item-container{
+    display:flex;
+    flex-wrap:  wrap; 
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+} 
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right:  2em;
+    padding-bottom:  10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+    width: 40%;
+}
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-quantity{
+    width: 30%;
+}
+.cart-name{
+    color: #333;
+    margin-left:  .5em;
+    font-size:  1.2em;
+}
+.cart-img{
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius:  .3em;
+    font-weight: bold;
+    margin-left: auto;
+}
+.btn-danger:hover{
+    background-color: rgba(163, 8, 8, 0.699);
+}
+.cart-input{
+    height: 38px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(58, 180, 228);
+    background-color: white;
+    color: #333;
+    padding:  0; 
+    text-align: center;
+    font-size: 1em;
+    margin-right: 25px;
+}
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{    
+    border: none;
+}
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-name{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 20px;
+}
+.cart-total-price{
+    color: #333;
+    font-weight: lighter;
+    font-size: 1.25em;
+}
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
