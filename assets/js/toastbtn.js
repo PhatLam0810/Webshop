@@ -1,5 +1,5 @@
 
-    function toast({title ='' , message = '' , type = 'info' , duration = 5000}){
+    function toast({title ='' , message = '' , type = 'info' , duration = 2000}){
     const main = document.getElementById('toast');
     if (main){
         const toast = document.createElement('div');
@@ -39,6 +39,6 @@
         title: 'Success',
         message : 'Bạn đã thêm mặt hàng thành công',
         type : 'success',
-        duration: 5000,
+        duration: 2000,
     })
     }

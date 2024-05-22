@@ -13,7 +13,7 @@
      box-shadow: 0 5px 8px rgb(0,0,0,0.08);
      width: 350px;
      height: 60px;
-     animation: slideInLeft ease .3s , fadeOut linear 1s 5s forwards;
+     animation: slideInLeft ease .3s , fadeOut linear 1s 2s forwards;
      transition: all linear .3s;
  }
  

@@ -196,6 +196,10 @@ html,body{
 }
 .shop-img{
   height: 250px;
+  box-shadow: 1px 1px rgb(51, 51, 51, 0.1);
+  border: 1px solid rgb(51, 51, 51, 0.5);
+  border-radius: 10px;
+  
 }
 .shop-cost-detail{
     display: flex;
